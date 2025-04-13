@@ -29,7 +29,7 @@ my_ros2_ws/src/go2_lidar_odom/
    ```
 
 ### Published Topics
-- `/odom_lidar topic` ([nav_msgs/Odometry](https://docs.ros.org/en/api/nav_msgs/html/msg/Odometry.html)) - Odometry topic for Navsat_Transform
+- `/odom/lidar topic` ([nav_msgs/Odometry](https://docs.ros.org/en/api/nav_msgs/html/msg/Odometry.html)) - Odometry topic for Navsat_Transform
 
 ### Generate Nodes
-- `/Go2LidarOdom`
+- `/odom_node`

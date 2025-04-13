@@ -24,6 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'odom_node = go2_lidar_odom.odom_node:main'
         ],
     },
 )
